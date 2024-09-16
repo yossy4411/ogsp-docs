@@ -1,0 +1,29 @@
+# OGSP Docs
+
+このリポジトリは、OGSP(おかゆグループ地震計プロジェクト)のドキュメントを管理するためのリポジトリです。
+
+## ドキュメントの閲覧方法
+
+[こちら](https://services.okayugroup.com/ogsp/)から閲覧可能です。
+
+## 開発環境
+
+- [Hugo](https://gohugo.io/)
+- [Doks](https://getdoks.org/)
+- [Node.js](https://nodejs.org/)
+
+## ローカルでのプレビュー方法
+
+```bash
+git clone https://github.com/yossy4411/ogsp-docs.git
+npm install
+npm run start
+```
+
+## ライセンス
+
+[MIT](/LICENSE)
+
+## お問い合わせ
+
+[こちら](https://okayugroup.com/contact/)からお問い合わせください。
