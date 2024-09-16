@@ -1,10 +1,10 @@
 ---
-title: "Resources"
+title: "Api"
 description: ""
 summary: ""
-date: 2024-02-27T09:30:56+01:00
-lastmod: 2024-02-27T09:30:56+01:00
-draft: false
+date: 2024-09-16T22:33:40+09:00
+lastmod: 2024-09-16T22:33:40+09:00
+draft: true
 weight: 999
 toc: true
 seo:
@@ -13,5 +13,3 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-Link to valuable, relevant resources.
