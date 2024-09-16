@@ -1,6 +1,6 @@
 # Hugo
-title = "My Docs"
-description = "Congrats on setting up a new Doks project!"
+title = "OGSP Docs"
+description = "おかゆグループ地震計プロジェクトのドキュメント"
 images = ["cover.png"]
 
 # mainSections
@@ -20,9 +20,9 @@ mainSections = ["docs"]
   containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
   ## Button
-  navBarButton = false # false (default) or true
+  navBarButton = true # false (default) or true
   navBarButtonUrl = "/docs/prologue/introduction/"
-  navBarButtonText = "Get started"
+  navBarButtonText = "登録"
 
   # FlexSearch
   flexSearch = true # true (default) or false
