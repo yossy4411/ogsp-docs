@@ -1,11 +1,16 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: Node.js Build and FTP Deploy
+name: Build and FTP Deploy
 
 on:
   push:
     branches: [ "main" ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -22,15 +27,16 @@ jobs:
         run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
         with:
-          node-version: '20'
-          cache: 'npm'
-      - name: Install Dependencies
-        run: npm install
+          submodules: recursive
+          fetch-depth: 0
+      - name: Install Node.js dependencies
+        run: npm ci
       - name: Build
-        run: npm run build
+        env:
+          HUGO_CACHE_DIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: hugo --minify --gc
 
 
   ftp-deploy:
