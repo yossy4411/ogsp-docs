@@ -17,12 +17,16 @@
 ```bash
 git clone https://github.com/yossy4411/ogsp-docs.git
 npm install
-npm run start
+npm run dev
 ```
 
 ## ライセンス
 
 [MIT](/LICENSE)
+
+## 親リポジトリ
+
+- [OkayuGroup Services Documentation Root](https://yossy4411/okayugroup-services-docs)
 
 ## お問い合わせ
 
