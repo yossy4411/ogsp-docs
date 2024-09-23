@@ -26,7 +26,7 @@ npm run dev
 
 ## 親リポジトリ
 
-- [おかゆグループ サービス一覧](https://yossy4411/okayugroup-services-root)
+- [おかゆグループ サービス一覧](https://github.com/yossy4411/okayugroup-services-root)
 
 ## お問い合わせ
 
