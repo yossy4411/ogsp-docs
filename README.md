@@ -4,7 +4,7 @@
 
 ## ドキュメントの閲覧方法
 
-[こちら](https://services.okayugroup.com/ogsp/)から閲覧可能です。
+[こちら](https://ogsp.okayugroup.com/)から閲覧可能です。
 
 ## 開発環境
 
@@ -26,7 +26,7 @@ npm run dev
 
 ## 親リポジトリ
 
-- [OkayuGroup Services Documentation Root](https://yossy4411/okayugroup-services-docs)
+- [おかゆグループ サービス一覧](https://yossy4411/okayugroup-services-root)
 
 ## お問い合わせ
 

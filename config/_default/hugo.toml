@@ -1,5 +1,5 @@
 title = "OGSP Docs"
-baseurl = "https://services.okayugroup.com/ogsp/"
+baseurl = "https://ogsp.okayugroup.com/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
